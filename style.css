@@ -1,0 +1,81 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgb(90, 189, 180),rgb(98, 98, 167),rgb(99, 45, 99));
+    height:100vh;
+    width:100vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    display:flex;
+    transform: translate(-50% , -50%);
+    border-radius: 14px;
+    background-color: rgb(201, 178, 178);
+    position: absolute;
+    top: 50%;
+    left:50%;
+    width:90vw;
+    height: 45vh;
+}
+.header{
+    color:white;
+    position: absolute;
+    top:21%;
+    left:26%;
+    font-size: 40px;
+}
+.data{
+    padding: 30px 20px;
+}
+.data button{
+    background-color: blue;
+    color: white;
+    padding: 5px 12px;
+    margin-left: 10px;
+    position: absolute;
+    border-radius: 4px;
+    cursor: pointer;
+    border-color: blue;
+}
+.data input{
+    padding 5px 5px;
+    border-radius: 8px;
+    height: 30px;
+    width:180px;
+    border-color: blue;
+}
+.data input text{
+    padding: 4px 4px;
+}
+#tasks{
+    margin-top: 4px;
+    position: absolute;
+    padding-top:10px;
+    color: rgb(22, 7, 7);
+   top: 70px;
+   left:80px;
+}
+#tasks li{
+    padding:5px;
+    font-size: 25px;
+    width: 200px;
+    
+}
+ .btn{
+    background-color: blue;
+    border-color: blue;
+    color: white;
+    position: absolute;
+    top:22%;
+ 
+} 
+.delete{
+    float: right;
+    height: 20px;
+    width: 20px;
+   margin-top: 3px;
+    cursor: pointer;
+}
